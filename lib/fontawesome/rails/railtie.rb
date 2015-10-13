@@ -1,4 +1,3 @@
-require 'pry'
 module Fontawesome
   module Rails
     class Railtie < ::Rails::Railtie

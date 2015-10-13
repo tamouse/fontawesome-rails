@@ -2,11 +2,13 @@
 
 [The amazing Fontawesome](http://fontawesome.io) packaged for Rails Asset Pipeline.
 
+**NOTE:** This fork removes the egregious `require 'pry'` left in the railtie.
+
 ## Installation
 
 Add this line to your Rails application's Gemfile:
 
-    gem 'fontawesome-rails'
+    gem 'fontawesome-rails', github: 'tamouse/fontawesome-rails'
 
 And then execute:
 
@@ -37,7 +39,7 @@ it will be available in fontawesome-rails '~> 4.0.3.X'
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/fontawesome-rails/fork )
+1. Fork it ( http://github.com/tamouse/fontawesome-rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
